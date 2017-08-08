@@ -20,7 +20,7 @@ $ cd TwitterIntegration
 $ npm install
 ```
 
-### 3. Edit providers.json and Consumer key and secret for your application
+### 3. Edit providers.json and add Consumer key and secret for your application
 
     "twitter-login": {
     "provider": "twitter",
