@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models",
+      "./node_modules/loopback-component-passport/lib/models"
+    ]
+  },
+  "user": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "accessToken": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mydb",
+    "public": false
+  },
+  "TwitterIntegration": {
+    "dataSource": "mydb",
+    "public": true
+  }
+  
+}
